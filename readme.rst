@@ -1,4 +1,17 @@
 ###################
+descrição do projeto
+###################
+
+se você estiver trabalhando com bancos de dados extremamente grandes, convém consideraro
+uso das opções do lado do servidorfornecidas pelo DataTables. Com o processamento do lado
+do servidor ativado, todas as ações que o DataTables realiza (como paginação, pesquisa e ordenação)
+são entregues a um servidor onde um mecanismo SQL (ou similar) pode executar essas ações no grande
+conjunto de dados (afinal, é isso que o mecanismo de banco de dados é projetado para!). Assim, cada
+sorteio da tabela resultará em uma nova solicitação do Ajax para obter os dados necessários.
+
+
+
+###################
 What is CodeIgniter
 ###################
 
