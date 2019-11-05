@@ -4,8 +4,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Person_model extends CI_Model {
 
 	function fetch(){
-		$this->datatables->select('id, name, salary, age')->from('tbperson');
-		$this->datatables->add_column('edit', '
+		$this->datatables->select('id, name, salary')->from('tbperson');
+		$this->datatables->add_column('age', '
 												<form action="'.base_url().'welcome/editar" method="post">
 												<input type="hidden" value="$1" name="id">
 												<button type="submit" class="btn btn-warning btn-sm">editar</button>
