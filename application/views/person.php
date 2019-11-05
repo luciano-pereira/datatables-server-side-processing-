@@ -17,7 +17,6 @@
             <th>ID</th>
             <th>Name</th>
             <th>Salary</th>
-            <th>Age</th>
             <th>edit</th>
         </tr>
         </thead>
@@ -26,7 +25,6 @@
             <th>ID</th>
             <th>Name</th>
             <th>Salary</th>
-            <th>Age</th>
             <th>edit</th>
         </tr>
         </tfoot>
@@ -69,8 +67,7 @@
             { "data": "id" },
             { "data": "name" },
             { "data": "salary" },
-            { "data": "age" },
-            { "data": "edit" }
+            { "data": "age" }
         ]
         });
     });
